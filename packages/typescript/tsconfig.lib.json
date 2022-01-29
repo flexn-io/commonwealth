@@ -1,11 +1,9 @@
 {
     "compilerOptions": {
         "declaration": true,
-        "outDir": "./lib",
         "target": "es5", //ES2020
         "jsx": "preserve",
         "module": "commonjs", //ess2015
-        "rootDir": "./src",
         "moduleResolution": "node",
         "importHelpers": true,
         "esModuleInterop": true,

@@ -1,6 +1,6 @@
 {
     "name": "@flexn/typescript",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Flexn Typescript configs",
     "scripts": {},
     "keywords": [
@@ -15,7 +15,8 @@
     ],
     "license": "MIT",
     "peerDependencies": {
-
+        "tslib": ">=2.3.1",
+        "typescript": ">=4.5.4"
     },
     "publishConfig": {
         "access": "public"
