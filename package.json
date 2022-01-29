@@ -1,0 +1,29 @@
+{
+    "name": "lint",
+    "description": "Flexn linters and style guides",
+    "keywords": [],
+    "private": true,
+    "homepage": "https://github.com/flexn-io/lint#readme",
+    "bugs": {
+        "url": "https://github.com/flexn-io/lint/issues"
+    },
+    "author": "ReactSeals",
+    "contributors": [],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/flexn-io/lint.git"
+    },
+    "scripts": {
+        "bootstrap": "npx lerna bootstrap -- --ignore-engines",
+        "bootstrap-clean": "rm -rf ./node_modules; npx lerna clean --yes && yarn bootstrap"
+    },
+    "devDependencies": {
+        "lerna": "4.0.0"
+    },
+    "workspaces": {
+        "packages": [
+            "packages/*"
+        ],
+        "nohoist": []
+    }
+}

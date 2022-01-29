@@ -1,0 +1,34 @@
+{
+    "name": "@flexn/prettier-config",
+    "version": "0.1.0",
+    "description": "Flexn Prettier config",
+    "main": "index.js",
+    "scripts": {},
+    "keywords": [
+        "prettier",
+        "prettierconfig",
+        "config"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "author": "Flexn Team",
+    "contributors": [
+        {
+            "name": "Pavel Jacko",
+            "url": "https://twitter.com/pavjacko"
+        }
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "prettier": "^2.3.1"
+    },
+    "peerDependencies": {
+        "prettier": "^2.3.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/flexn-io/lint.git",
+        "directory": "packages/prettier-config"
+    }
+}
