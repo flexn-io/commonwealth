@@ -1,6 +1,6 @@
 {
     "name": "@flexn/prettier-config",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "description": "Flexn Prettier config",
     "main": "index.js",
     "scripts": {},

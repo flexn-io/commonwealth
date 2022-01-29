@@ -1,6 +1,6 @@
 {
     "name": "@flexn/eslint-config",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "description": "Flexn ESLint config",
     "main": "index.js",
     "scripts": {},
@@ -10,7 +10,7 @@
         "config"
     ],
     "author": "Flexn Team",
-     "contributors": [
+    "contributors": [
         {
             "name": "Pavel Jacko",
             "url": "https://twitter.com/pavjacko"
@@ -18,9 +18,9 @@
     ],
     "license": "MIT",
     "peerDependencies": {
-        "eslint": "^8.2.0",
         "@typescript-eslint/eslint-plugin": "^5.4.0",
         "@typescript-eslint/parser": "^5.4.0",
+        "eslint": "^8.2.0",
         "typescript": ">=4.5.4"
     },
     "publishConfig": {
