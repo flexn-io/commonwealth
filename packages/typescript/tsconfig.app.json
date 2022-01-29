@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "declaration": false,
+        "outDir": "./lib",
+        "target": "ES2020",
+        "jsx": "preserve",
+        "module": "esnext",
+        "rootDir": ".",
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "noImplicitAny": false,
+        "resolveJsonModule": true,
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "allowJs": true,
+        "noEmit": true,
+        "incremental": true,
+        "isolatedModules": true
+    },
+    "include": [
+        "./src/**/*",
+        "./src/**/*.json",
+        "./types.d.ts",
+        "./package.json",
+        "./app.json",
+        "./platformAssets/runtime/fontManager.js"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "@flexn/typescript",
+    "version": "0.1.0",
+    "description": "Flexn Typescript configs",
+    "scripts": {},
+    "keywords": [
+        "typescript"
+    ],
+    "author": "Flexn Team",
+     "contributors": [
+        {
+            "name": "Pavel Jacko",
+            "url": "https://twitter.com/pavjacko"
+        }
+    ],
+    "license": "MIT",
+    "peerDependencies": {
+
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/flexn-io/lint.git",
+        "directory": "packages/typescript"
+    }
+}
