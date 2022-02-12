@@ -31,7 +31,7 @@ module.exports = {
                 allowTemplateLiterals: true
             }
         ],
-        '@typescript-eslint/no-unused-vars': ['error'],
+        '@typescript-eslint/no-unused-vars': ['error', {argsIgnorePattern: '^_',}],
         '@typescript-eslint/no-extra-semi': 'off',
         indent: ['error', 4, { SwitchCase: 1 }],
         'import/prefer-default-export': 'off',
