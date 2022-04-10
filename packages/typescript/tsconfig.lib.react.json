@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
         "declaration": true,
+        "resolveJsonModule": true,
         "target": "es5",
         "jsx": "react",
         "module": "commonjs",
