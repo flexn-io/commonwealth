@@ -1,7 +1,8 @@
 module.exports = {
     parser: '@typescript-eslint/parser',
     plugins: [
-        '@typescript-eslint'
+        '@typescript-eslint',
+        'react'
     ],
     env: {
         node: true,
@@ -55,6 +56,12 @@ module.exports = {
             'warn',
             { code: 120, ignoreComments: true, ignoreStrings: true
             }
-        ]
+        ],
+        'react/jsx-key': [
+            'error',
+            {
+                checkFragmentShorthand: true,
+            },
+        ],
     }
 };
