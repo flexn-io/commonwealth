@@ -1,0 +1,16 @@
+{
+    "name": "@flexn/fonts",
+    "version": "1.0.0",
+    "description": "Flexn Fonts",
+    "author": "Flexn BV",
+    "contributors": [],
+    "repository": {
+        "directory": "packages/fonts-flexn",
+        "type": "git",
+        "url": "git+https://github.com/flexn-io/asset-library.git"
+    },
+    "scripts": {},
+    "publishConfig": {
+        "access": "public"
+    }
+}

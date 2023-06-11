@@ -1,0 +1,16 @@
+{
+    "name": "@flexn/assets-flexn",
+    "version": "0.1.0",
+    "description": "Flexn Assets for ReNative projects",
+    "author": "Flexn BV",
+    "contributors": [],
+    "repository": {
+        "directory": "packages/assets-flexn",
+        "type": "git",
+        "url": "git+https://github.com/flexn-io/asset-library.git"
+    },
+    "scripts": {},
+    "publishConfig": {
+        "access": "public"
+    }
+}
