@@ -1,3 +1,5 @@
-# Flexn Linters and Style Guides
+# Flexn Commonwealth
+
+Common configurations, Linters, Style Guides, Assets, Plugins
 
 Optimised for multiplatform development environments
