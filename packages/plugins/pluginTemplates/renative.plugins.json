@@ -136,7 +136,7 @@
                 "moduleAliases": true,
                 "nextTranspileModules": ["@flexn/shopify-flash-list"]
             },
-            "version": "1.4.7"
+            "version": "1.4.8"
         },
         "@flexn/typescript": {
             "version": "0.2.4"
