@@ -4044,6 +4044,16 @@
             },
             "version": "github:tipsi/tipsi-stripe#experimental"
         },
-        "tslib": "2.3.1"
+        "tslib": "2.3.1",
+        "react-native-radial-gradient": {
+            "version": "github:YousefED/react-native-radial-gradient#patch-1",
+            "android": {
+                "package": "com.surajit.rnrg.RNRadialGradientPackage"
+            },
+            "ios": {
+                "podName": "SRSRadialGradient",
+                "path": "{{PLUGIN_ROOT}}/ios"
+            }
+        }
     }
 }
