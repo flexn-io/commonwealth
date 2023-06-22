@@ -1,6 +1,6 @@
 {
     "name": "@flexn/plugins",
-    "version": "1.0.8",
+    "version": "0.1.6",
     "description": "Flexn Renative Plugins",
     "author": "Flexn BV",
     "contributors": [],
@@ -10,7 +10,7 @@
     },
     "scripts": {},
     "devDependencies": {
-        "@flexn/prettier-config": "0.1.4",
+        "@flexn/prettier-config": "^0.1.6",
         "prettier": "^2.3.1"
     },
     "publishConfig": {
