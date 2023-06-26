@@ -7,7 +7,7 @@
     "repository": {
         "directory": "packages/fonts-flexn",
         "type": "git",
-        "url": "git+https://github.com/flexn-io/asset-library.git"
+        "url": "git+https://github.com/flexn-io/commonwealth.git"
     },
     "scripts": {},
     "publishConfig": {
