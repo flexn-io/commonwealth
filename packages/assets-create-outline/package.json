@@ -1,0 +1,16 @@
+{
+    "name": "@flexn/assets-create-outline",
+    "version": "0.2.0",
+    "description": "Flexn Assets for Create projects",
+    "author": "Flexn BV",
+    "contributors": [],
+    "repository": {
+        "directory": "packages/assets-create-outline",
+        "type": "git",
+        "url": "git+https://github.com/flexn-io/commonwealth.git"
+    },
+    "scripts": {},
+    "publishConfig": {
+        "access": "public"
+    }
+}

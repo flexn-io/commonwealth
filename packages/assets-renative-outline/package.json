@@ -1,0 +1,16 @@
+{
+    "name": "@flexn/assets-renative-outline",
+    "version": "0.2.0",
+    "description": "Flexn Assets for ReNative projects",
+    "author": "Flexn BV",
+    "contributors": [],
+    "repository": {
+        "directory": "packages/assets-renative-outline",
+        "type": "git",
+        "url": "git+https://github.com/flexn-io/commonwealth.git"
+    },
+    "scripts": {},
+    "publishConfig": {
+        "access": "public"
+    }
+}
