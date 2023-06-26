@@ -1,17 +1,17 @@
 {
-    "name": "lint",
-    "description": "Flexn linters and style guides",
+    "name": "commonwealth",
+    "description": "Common configurations, Linters, Style Guides, Assets, Plugins Optimized for multi-platform development environments",
     "keywords": [],
     "private": true,
-    "homepage": "https://github.com/flexn-io/lint#readme",
+    "homepage": "https://github.com/flexn-io/commonwealth#readme",
     "bugs": {
-        "url": "https://github.com/flexn-io/lint/issues"
+        "url": "https://github.com/flexn-io/commonwealth/issues"
     },
-    "author": "ReactSeals",
+    "author": "Flexn",
     "contributors": [],
     "repository": {
         "type": "git",
-        "url": "https://github.com/flexn-io/lint.git"
+        "url": "https://github.com/flexn-io/commonwealth.git"
     },
     "scripts": {
         "bootstrap": "npx lerna bootstrap -- --ignore-engines",
@@ -19,7 +19,9 @@
         "release": "lerna version && lerna publish from-package"
     },
     "devDependencies": {
-        "lerna": "4.0.0"
+        "lerna": "6.6.2",
+        "@flexn/prettier-config": "^0.1.6",
+        "prettier": "^2.3.1"
     },
     "workspaces": {
         "packages": [
