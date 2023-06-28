@@ -1,12 +1,12 @@
 {
-    "name": "@flexn/typescript",
-    "version": "0.1.6",
+    "name": "@flexn/typescript-config",
+    "version": "0.1.7",
     "description": "Flexn Typescript configs",
     "scripts": {},
     "keywords": [
         "typescript"
     ],
-    "author": "Flexn Team",
+    "author": "Flexn",
     "contributors": [
         {
             "name": "Pavel Jacko",

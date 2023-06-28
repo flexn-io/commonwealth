@@ -1,4 +1,4 @@
-# @flexn/typescript
+# @flexn/typescript-config
 
 Example usage:
 
@@ -6,7 +6,7 @@ Example usage:
 
 ```
 {
-    "extends": "@flexn/typescript/tsconfig.lib.react.json",
+    "extends": "@flexn/typescript-config/tsconfig.lib.react.json",
     "compilerOptions": {
         "outDir": "./lib",
         "rootDir": "./src"

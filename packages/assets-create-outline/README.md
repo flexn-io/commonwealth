@@ -3,7 +3,7 @@
 
 Example usage:
 
-`.renative.json`
+`./appConfigs/**/renative.json`
 
 ```
 {
