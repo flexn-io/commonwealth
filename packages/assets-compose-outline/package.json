@@ -1,0 +1,17 @@
+{
+    "name": "@flexn/assets-compose-outline",
+    "version": "0.2.0",
+    "description": "Flexn Assets for Compose projects",
+    "author": "Flexn BV",
+    "license": "MIT",
+    "contributors": [],
+    "repository": {
+        "directory": "packages/assets-compose-outline",
+        "type": "git",
+        "url": "git+https://github.com/flexn-io/commonwealth.git"
+    },
+    "scripts": {},
+    "publishConfig": {
+        "access": "public"
+    }
+}

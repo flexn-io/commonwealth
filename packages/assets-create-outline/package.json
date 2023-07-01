@@ -3,6 +3,7 @@
     "version": "0.2.0",
     "description": "Flexn Assets for Create projects",
     "author": "Flexn BV",
+    "license": "MIT",
     "contributors": [],
     "repository": {
         "directory": "packages/assets-create-outline",

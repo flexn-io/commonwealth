@@ -3,6 +3,7 @@
     "version": "0.1.7",
     "description": "Flexn Renative Plugins",
     "author": "Flexn BV",
+    "license": "MIT",
     "contributors": [],
     "repository": {
         "type": "git",
