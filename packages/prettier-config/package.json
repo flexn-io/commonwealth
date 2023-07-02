@@ -1,6 +1,6 @@
 {
     "name": "@flexn/prettier-config",
-    "version": "0.1.7",
+    "version": "1.0.0",
     "description": "Flexn Prettier config",
     "main": "index.js",
     "scripts": {},
@@ -13,12 +13,6 @@
         "access": "public"
     },
     "author": "Flexn",
-    "contributors": [
-        {
-            "name": "Pavel Jacko",
-            "url": "https://twitter.com/pavjacko"
-        }
-    ],
     "license": "MIT",
     "devDependencies": {
         "prettier": "^2.3.1"

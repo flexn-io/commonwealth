@@ -1,8 +1,8 @@
 {
     "name": "@flexn/plugins",
-    "version": "0.1.7",
+    "version": "0.2.0",
     "description": "Flexn Renative Plugins",
-    "author": "Flexn BV",
+    "author": "Flexn",
     "license": "MIT",
     "contributors": [],
     "repository": {

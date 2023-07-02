@@ -1,8 +1,8 @@
 {
     "name": "@flexn/fonts",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Flexn Fonts",
-    "author": "Flexn BV",
+    "author": "Flexn",
     "contributors": [],
     "repository": {
         "directory": "packages/fonts",

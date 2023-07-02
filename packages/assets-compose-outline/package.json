@@ -1,8 +1,8 @@
 {
     "name": "@flexn/assets-compose-outline",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "Flexn Assets for Compose projects",
-    "author": "Flexn BV",
+    "author": "Flexn",
     "license": "MIT",
     "contributors": [],
     "repository": {
