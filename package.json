@@ -16,7 +16,11 @@
     "scripts": {
         "bootstrap": "npx lerna bootstrap -- --ignore-engines",
         "bootstrap-clean": "rm -rf ./node_modules; npx lerna clean --yes && yarn bootstrap",
-        "release": "lerna version --no-private && lerna publish from-package"
+        "deploy:prod": "lerna version --no-private && lerna publish from-package",
+        "deploy:preview": "lerna version --no-private && lerna publish from-package --dist-tag preview",
+        "deploy:canary": "lerna version --no-private && lerna publish from-package --dist-tag canary",
+        "deploy:feat": "lerna version --no-private && lerna publish from-package --dist-tag feat",
+        "deploy:lts": "lerna version --no-private && lerna publish from-package --dist-tag lts"
     },
     "devDependencies": {
         "lerna": "6.6.2",
