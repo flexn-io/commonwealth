@@ -1,4 +1,4 @@
-# @flexn/assets-renative-outline
+# @flexn/assets-compose-outline
 
 
 Example usage:
@@ -8,7 +8,7 @@ Example usage:
 ```
 {
     "assetSources": [
-        "{{resolvePackage(@flexn/assets-renative-outline)}}/assets"
+        "{{resolvePackage(@flexn/assets-compose-outline)}}/assets"
     ]
 }
 ```
