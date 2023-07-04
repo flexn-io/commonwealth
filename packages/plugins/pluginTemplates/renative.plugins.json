@@ -4046,7 +4046,7 @@
         },
         "tslib": "2.3.1",
         "react-native-radial-gradient": {
-            "version": "github:YousefED/react-native-radial-gradient#patch-1",
+            "version": "1.1.3",
             "android": {
                 "package": "com.surajit.rnrg.RNRadialGradientPackage"
             },
