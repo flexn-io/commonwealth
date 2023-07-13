@@ -1,6 +1,6 @@
 {
     "name": "@flexn/plugins",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "description": "Flexn Renative Plugins",
     "author": "Flexn",
     "license": "MIT",
@@ -10,7 +10,6 @@
         "url": "git+https://github.com/flexn-io/commonwealth.git"
     },
     "scripts": {},
-    "devDependencies": {},
     "publishConfig": {
         "access": "public"
     }
