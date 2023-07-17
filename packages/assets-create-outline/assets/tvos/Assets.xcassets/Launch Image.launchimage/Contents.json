@@ -1,16 +1,24 @@
 {
-    "images": [
-        {
-            "orientation": "landscape",
-            "idiom": "tv",
-            "filename": "1920x1080.png",
-            "extent": "full-screen",
-            "minimum-system-version": "9.0",
-            "scale": "1x"
-        }
-    ],
-    "info": {
-        "version": 1,
-        "author": "xcode"
+  "images" : [
+    {
+      "extent" : "full-screen",
+      "filename" : "AppleTV-3840x2160.png",
+      "idiom" : "tv",
+      "minimum-system-version" : "11.0",
+      "orientation" : "landscape",
+      "scale" : "2x"
+    },
+    {
+      "extent" : "full-screen",
+      "filename" : "AppleTV-TopShelf-1920x1080.png",
+      "idiom" : "tv",
+      "minimum-system-version" : "9.0",
+      "orientation" : "landscape",
+      "scale" : "1x"
     }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
 }
