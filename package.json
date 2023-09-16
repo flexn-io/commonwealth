@@ -23,7 +23,7 @@
         "deploy:lts": "lerna version --no-private && lerna publish from-package --dist-tag lts"
     },
     "devDependencies": {
-        "lerna": "6.6.2",
+        "lerna": "^6.6.2",
         "@flexn/prettier-config": "^0.1.6",
         "prettier": "^2.3.1"
     },
