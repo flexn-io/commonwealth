@@ -8,6 +8,7 @@ yarn-error.log
 tsconfig.tsbuildinfo
 
 .vscode
+**/.DS_Store
 
 !**/overrides/**/lib
 !**/overrides/**/build
