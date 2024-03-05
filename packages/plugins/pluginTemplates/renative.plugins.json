@@ -460,7 +460,6 @@
                         "didFailToRegisterForRemoteNotificationsWithError": [
                             "RNCPushNotificationIOS.didFailToRegisterForRemoteNotificationsWithError(error)"
                         ],
-                        "didReceive": null,
                         "didReceive": ["RNCPushNotificationIOS.didReceive(notification)"],
                         "didReceiveRemoteNotification": [
                             "RNCPushNotificationIOS.didReceiveRemoteNotification(userInfo, fetchCompletionHandler: completionHandler)"
@@ -2851,7 +2850,7 @@
             }
         },
         "react-native-material-dialog": {
-            "version": "github:AppGyver/react-native-material-dialog#0.8.1"
+            "version": "0.7.7"
         },
         "react-native-material-dropdown": {
             "version": "0.11.1"
@@ -3066,7 +3065,7 @@
             "pluginDependencies": {
                 "iOSPhotoEditor": "source:rnv"
             },
-            "version": "github:AppGyver/react-native-photo-editor#v0.1.2"
+            "version": "1.0.13"
         },
         "react-native-picker": {
             "android": {
@@ -3623,7 +3622,7 @@
             "ios": {
                 "podName": "react-native-webview-bridge"
             },
-            "version": "github:Appgyver/react-native-webview-bridge#0.40.2"
+            "version": "0.40.1"
         },
         "react-native-windows": {
             "version": "0.67.3"
