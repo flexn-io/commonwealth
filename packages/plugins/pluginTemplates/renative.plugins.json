@@ -3788,6 +3788,13 @@
             "ios": {
                 "podName": "SRSRadialGradient",
                 "path": "{{PLUGIN_ROOT}}/ios"
+            },
+            "androidtv": {
+                "package": "com.surajit.rnrg.RNRadialGradientPackage"
+            },
+            "tvos": {
+                "podName": "SRSRadialGradient",
+                "path": "{{PLUGIN_ROOT}}/ios"
             }
         }
     }
