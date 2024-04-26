@@ -11,14 +11,16 @@
           "path.join(process.cwd(), enterFile),": "path.join(process.cwd(), process.env.LNG_ENTRY_FILE),"
       },
       "src/configs/rollup.es6.config.js": {
-          "resolve({ extensions, mainFields: buildHelpers.getResolveConfigForBundlers() }),": "resolve({ extensions: process.env.RNV_EXTENSIONS.split(',').map(extension => `.${extension}`), mainFields: buildHelpers.getResolveConfigForBundlers() }),"
-      },
+          "resolve({ extensions, mainFields: buildHelpers.getResolveConfigForBundlers() }),": "resolve({ extensions: process.env.RNV_EXTENSIONS.split(',').map(extension => `.${extension}`), mainFields: buildHelpers.getResolveConfigForBundlers() }),",
+          "typescript()": "typescript({ include: '{,**/}*.(cts|mts|lng.ts|lng.tsx)' })"
+        },
       "src/configs/esbuild.es6.config.js": {
           "/src/index.js`],": "/${process.env.LNG_ENTRY_FILE}`],"
       },
       "src/configs/rollup.es5.config.js": {
-          "resolve({ extensions, mainFields: buildHelpers.getResolveConfigForBundlers() }),": "resolve({ extensions: process.env.RNV_EXTENSIONS.split(',').map(extension => `.${extension}`), mainFields: buildHelpers.getResolveConfigForBundlers() }),"
-      },
+          "resolve({ extensions, mainFields: buildHelpers.getResolveConfigForBundlers() }),": "resolve({ extensions: process.env.RNV_EXTENSIONS.split(',').map(extension => `.${extension}`), mainFields: buildHelpers.getResolveConfigForBundlers() }),",
+          "typescript()": "typescript({ include: '{,**/}*.(cts|mts|lng.ts|lng.tsx)' })"
+        },
       "src/configs/esbuild.es5.config.js": {
           "/src/index.js`],": "/${process.env.LNG_ENTRY_FILE}`],"
       }
